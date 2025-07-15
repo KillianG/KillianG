@@ -19,6 +19,7 @@ jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
+    environment: WAKATIME_API_KEY
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
@@ -40,7 +41,6 @@ jobs:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
-    environment: WAKATIME_API_KEY
     timeout-minutes: 5
     
     steps:
