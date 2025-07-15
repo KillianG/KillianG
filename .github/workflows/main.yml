@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: WAKATIME_API_KEY
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: killiang/waka-readme-stats@master
         with:
           SHOW_PROJECTS: "False"
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
