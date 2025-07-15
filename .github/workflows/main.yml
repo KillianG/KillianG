@@ -20,6 +20,7 @@ jobs:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
+    environment: WAKATIME_API_KEY
     timeout-minutes: 5
     
     steps:
