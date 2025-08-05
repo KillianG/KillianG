@@ -16,18 +16,6 @@ on:
   
 
 jobs:
-  update-readme:
-    name: Update Readme with Metrics
-    runs-on: ubuntu-latest
-    environment: WAKATIME_API_KEY
-    steps:
-      - uses: killiang/waka-readme-stats@master
-        with:
-          SHOW_PROJECTS: "False"
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
-
   generate:
     permissions: 
       contents: write
