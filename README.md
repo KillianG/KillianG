@@ -5,7 +5,7 @@
 ![github-contributions-snake](https://raw.githubusercontent.com/KillianG/KillianG/refs/heads/output/github-contribution-grid-snake-dark.svg)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-9%20hrs%2048%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-11%20hrs%2010%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
@@ -78,5 +78,5 @@ HTML                     1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/KillianG/KillianG/master/assets/bar_graph.png)
 
 
- Last Updated on 05/08/2025 00:43:18 UTC
+ Last Updated on 05/08/2025 01:19:47 UTC
 <!--END_SECTION:waka-->
